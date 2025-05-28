@@ -49,7 +49,7 @@ const Contact = () => {
             </Link>
 
             <Link
-              href="mailto:contato@alanmendes.com"
+              href="mailto:meuctodigital@gmail.com"
               className="border-2 border-white text-white font-semibold px-6 py-4 rounded-lg hover:bg-white hover:text-emerald-700 transition-colors flex items-center justify-center"
             >
               <FaEnvelope className="w-5 h-5 mr-3" />

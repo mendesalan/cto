@@ -20,9 +20,9 @@ const Hero = () => {
             </h1>
 
             <p className="mt-6 text-xl text-gray-300 leading-relaxed">
-              Chega de perder tempo e dinheiro com decisões técnicas. Tenha ao
-              seu lado um CTO que transforma suas ideias em soluções reais com
-              visão estratégica de C-level.
+              Chega de perder tempo e dinheiro com decisões técnicas
+              equivocadas. Tenha ao seu lado um CTO que transforma suas ideias
+              em soluções reais com visão estratégica de C-level.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">

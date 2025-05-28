@@ -1,13 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import {
-  FaLinkedin,
-  FaTwitter,
-  FaInstagram,
-  FaEnvelope,
-  FaPhone,
-} from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaEnvelope, FaPhone } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -25,21 +19,18 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/mendesalan/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="LinkedIn"
               >
                 <FaLinkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
-                className="text-gray-400 hover:text-white transition-colors"
-                aria-label="Twitter"
-              >
-                <FaTwitter className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
+                href="https://www.instagram.com/meuctodigital/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="Instagram"
               >
@@ -94,16 +85,20 @@ const Footer = () => {
               <li className="flex items-center">
                 <FaEnvelope className="w-4 h-4 mr-2" />
                 <a
-                  href="mailto:contato@alanmendes.com"
+                  href="mailto:meuctodigital@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  contato@alanmendes.com
+                  meuctodigital@gmail.com
                 </a>
               </li>
               <li className="flex items-center">
                 <FaPhone className="w-4 h-4 mr-2" />
                 <a
                   href="tel:+5500000000000"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
                   (00) 00000-0000

@@ -92,6 +92,8 @@ const About = () => {
                 href="https://www.linkedin.com/in/mendesalan/"
                 className="text-gray-500 hover:text-blue-600 transition-colors"
                 aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FaLinkedin className="w-6 h-6" />
               </a>
@@ -100,6 +102,8 @@ const About = () => {
                 href="https://github.com/mendesalan"
                 className="text-gray-500 hover:text-gray-800 transition-colors"
                 aria-label="GitHub"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FaGithub className="w-6 h-6" />
               </a>
