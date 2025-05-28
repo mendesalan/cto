@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d out --dotfiles",
+    "deploy": "gh-pages -d out --dotfiles --add",
     "build-and-deploy": "npm run build && npm run deploy"
   },
   "dependencies": {
