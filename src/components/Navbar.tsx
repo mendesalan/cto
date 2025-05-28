@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="text-xl font-bold text-emerald-600">
-            Alan Arquiteto
+            meuCTOdigital.com
           </Link>
 
           {/* Desktop Navigation */}

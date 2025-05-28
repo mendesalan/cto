@@ -17,7 +17,7 @@ const Footer = () => {
           {/* About */}
           <div>
             <h3 className="text-white font-bold text-lg mb-4">
-              Alan Arquiteto
+              meuCTOdigital.com
             </h3>
             <p className="mb-4">
               Arquitetura de software e consultoria técnica para infoprodutores

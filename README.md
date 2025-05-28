@@ -1,6 +1,6 @@
-# Alan Arquiteto - Site Pessoal
+# meuCTOdigital.com - Site Pessoal
 
-Site pessoal moderno para Alan Arquiteto, desenvolvido com Next.js, TailwindCSS e Framer Motion.
+Site pessoal moderno para meuCTOdigital.com, desenvolvido com Next.js, TailwindCSS e Framer Motion.
 
 ## Tecnologias Utilizadas
 

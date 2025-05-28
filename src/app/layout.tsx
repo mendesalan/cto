@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Alan Arquiteto | Seu Tech de Confiança",
+  title: "meuCTOdigital.com | Seu Tech de Confiança",
   description:
     "Arquitetura de software e consultoria técnica para infoprodutores e negócios digitais.",
 };
