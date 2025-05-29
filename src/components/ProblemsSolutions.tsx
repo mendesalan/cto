@@ -125,7 +125,7 @@ const ProblemsSolutions = () => {
               <motion.li variants={item} className="flex items-center">
                 <FaCheckCircle className="w-5 h-5 text-emerald-500 flex-shrink-0" />
                 <span className="ml-3 text-gray-700">
-                  Um técnico que fala sua língua
+                  Um técnico que fala sua língua.
                 </span>
               </motion.li>
             </motion.ul>

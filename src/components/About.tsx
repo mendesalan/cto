@@ -24,7 +24,7 @@ const About = () => {
           >
             <div className="relative w-full h-[450px] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                src="/aboutme.jpeg"
                 alt="Alan Mendes"
                 fill
                 className="object-cover"
