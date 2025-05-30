@@ -41,7 +41,7 @@ const Contact = () => {
             className="grid md:grid-cols-2 gap-6"
           >
             <Link
-              href="https://wa.me/55SEUNUMERO"
+              href="https://api.whatsapp.com/send?phone=5511961525971&text=Oi%20Alan%2C%20vi%20seus%20servi%C3%A7os%20e%20quero%20entender%20como%20voc%C3%AA%20pode%20me%20ajudar%20com%20meu%20projeto%20digital."
               className="bg-white text-emerald-700 font-semibold px-6 py-4 rounded-lg shadow-lg hover:bg-gray-100 transition-colors flex items-center justify-center"
             >
               <FaWhatsapp className="w-6 h-6 mr-3" />
