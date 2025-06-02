@@ -5,7 +5,6 @@ import {
   FaLinkedin,
   FaInstagram,
   FaEnvelope,
-  FaPhone,
   FaWhatsapp,
 } from "react-icons/fa";
 
@@ -115,8 +114,10 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-sm">
-          &copy; {new Date().getFullYear()} Alan Mendes. Todos os direitos
-          reservados.
+          <div className="space-y-1">
+            <p>&copy; 2025 Alan Mendes. Todos os direitos reservados.</p>
+            <p>CNPJ: 29.919.910/0001-54</p>
+          </div>
         </div>
       </div>
     </footer>
