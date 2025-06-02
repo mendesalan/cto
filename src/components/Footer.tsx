@@ -1,7 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { FaLinkedin, FaInstagram, FaEnvelope, FaPhone } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaInstagram,
+  FaEnvelope,
+  FaPhone,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -94,14 +100,14 @@ const Footer = () => {
                 </a>
               </li>
               <li className="flex items-center">
-                <FaPhone className="w-4 h-4 mr-2" />
+                <FaWhatsapp className="w-4 h-4 mr-2" />
                 <a
-                  href="tel:+5500000000000"
+                  href="https://api.whatsapp.com/send?phone=5511961525971&text=Oi%20Alan%2C%20vi%20seus%20servi%C3%A7os%20e%20quero%20entender%20como%20voc%C3%AA%20pode%20me%20ajudar%20com%20meu%20projeto%20digital."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  (00) 00000-0000
+                  (11) 96152-5971
                 </a>
               </li>
             </ul>

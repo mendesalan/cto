@@ -45,10 +45,12 @@ const About = () => {
             </h2>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              <strong>Solutions Architect</strong> com mais de 5 anos
-              transformando ideias em sistemas escaláveis. Já ajudei empresas
-              como Accenture, DBC Company e startups internacionais a definir
-              estratégias tecnológicas que geram resultados reais.
+              <strong>Solutions Architect</strong> com mais de 10 anos de
+              experiência na área de tecnologia, sendo mais de 5 deles ajudando
+              empresas a transformar ideias em sistemas escaláveis. Já colaborei
+              com empresas como Accenture, DBC Company e startups
+              internacionais, definindo estratégias tecnológicas que geram
+              resultados reais.
             </p>
 
             <p className="text-base text-gray-600 leading-relaxed mb-8">
