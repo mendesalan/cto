@@ -14,7 +14,7 @@ const services = [
     icon: <FaSearch className="w-6 h-6" />,
     title: "Diagnóstico Técnico",
     description:
-      "Análise de propostas, fornecedores e tecnologias que você está considerando.",
+      "Análise especializada de propostas, fornecedores e tecnologias que você está considerando para seu projeto digital.",
     info: "1 reunião + PDF com insights",
     color: "blue",
     iconBg: "bg-blue-100",
@@ -26,7 +26,7 @@ const services = [
     icon: <FaDraftingCompass className="w-6 h-6" />,
     title: "Consultoria de Construção",
     description:
-      "Planejamento completo de app ou plataforma, com roadmap técnico detalhado.",
+      "Planejamento completo de app ou plataforma digital, com roadmap técnico detalhado e arquitetura escalável.",
     info: "Sessões + plano técnico",
     color: "emerald",
     iconBg: "bg-emerald-100",
@@ -38,7 +38,7 @@ const services = [
     icon: <FaLaptopCode className="w-6 h-6" />,
     title: "CTO on Demand",
     description:
-      "Acompanhamento contínuo do seu projeto técnico com suporte estratégico.",
+      "Acompanhamento contínuo do seu projeto técnico com suporte estratégico e visão de C-level para seu negócio digital.",
     info: "Assinatura mensal",
     color: "purple",
     iconBg: "bg-purple-100",
@@ -75,7 +75,7 @@ const Services = () => {
             transition={{ duration: 0.5 }}
             className="text-3xl md:text-4xl font-bold text-gray-900"
           >
-            Como eu posso te ajudar
+            Serviços de Arquitetura de Software
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -84,8 +84,9 @@ const Services = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto"
           >
-            Serviços personalizados para transformar suas ideias em soluções
-            reais
+            Serviços especializados em <strong>CTO on demand</strong> e{" "}
+            <strong>consultoria técnica</strong> para transformar suas ideias em
+            soluções digitais escaláveis
           </motion.p>
         </div>
 
@@ -97,7 +98,7 @@ const Services = () => {
           className="grid md:grid-cols-3 gap-8"
         >
           {services.map((service, index) => (
-            <motion.div
+            <motion.article
               key={index}
               variants={item}
               className={`bg-white rounded-2xl shadow-lg p-8 border-t-4 ${service.borderColor} hover:shadow-xl transition-shadow`}
@@ -121,10 +122,11 @@ const Services = () => {
               <Link
                 href="#contato"
                 className={`inline-flex items-center ${service.linkColor} font-medium transition-colors`}
+                aria-label={`Saiba mais sobre ${service.title}`}
               >
                 Saiba mais <FaArrowRight className="ml-2 w-3 h-3" />
               </Link>
-            </motion.div>
+            </motion.article>
           ))}
         </motion.div>
       </div>

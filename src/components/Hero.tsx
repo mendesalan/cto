@@ -21,14 +21,16 @@ const Hero = () => {
 
             <p className="mt-6 text-xl text-gray-300 leading-relaxed">
               Chega de perder tempo e dinheiro com decisões técnicas
-              equivocadas. Tenha ao seu lado um CTO que transforma suas ideias
-              em soluções reais com visão estratégica de C-level.
+              equivocadas. Tenha ao seu lado um <strong>CTO on demand</strong>{" "}
+              que transforma suas ideias em soluções reais com visão estratégica
+              de C-level.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
                 href="#contato"
                 className="px-6 py-3 bg-emerald-600 text-white rounded-md shadow-lg hover:bg-emerald-700 inline-flex items-center transition-colors"
+                aria-label="Agendar conversa grátis sobre consultoria técnica"
               >
                 <FaCalendarCheck className="mr-2" />
                 Agende uma conversa grátis
@@ -37,6 +39,7 @@ const Hero = () => {
               <Link
                 href="#servicos"
                 className="px-6 py-3 border border-white text-white rounded-md hover:bg-white hover:text-gray-900 inline-flex items-center transition-colors"
+                aria-label="Ver serviços de arquitetura de software e CTO on demand"
               >
                 Ver serviços
               </Link>
@@ -52,7 +55,7 @@ const Hero = () => {
             <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
-                alt="Arquiteto de Software"
+                alt="Professional software architect working on system design and technical strategy for digital businesses - meuCTOdigital.com"
                 fill
                 className="object-cover"
                 priority

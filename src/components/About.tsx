@@ -25,7 +25,7 @@ const About = () => {
             <div className="relative w-full h-[450px] rounded-2xl overflow-hidden shadow-xl">
               <Image
                 src="/aboutme.jpeg"
-                alt="Alan Mendes"
+                alt="Alan Mendes - Solutions Architect e CTO on Demand com mais de 10 anos de experiência em arquitetura de software para negócios digitais"
                 fill
                 className="object-cover"
               />
@@ -41,23 +41,24 @@ const About = () => {
             transition={{ duration: 0.5 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Sobre mim
+              Sobre Alan Mendes
             </h2>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
               <strong>Solutions Architect</strong> com mais de 10 anos de
               experiência na área de tecnologia, sendo mais de 5 deles ajudando
               empresas a transformar ideias em sistemas escaláveis. Já colaborei
-              com empresas como Accenture, DBC Company e startups
-              internacionais, definindo estratégias tecnológicas que geram
-              resultados reais.
+              com empresas como <strong>Accenture</strong>,{" "}
+              <strong>DBC Company</strong> e startups internacionais, definindo
+              estratégias tecnológicas que geram resultados reais.
             </p>
 
             <p className="text-base text-gray-600 leading-relaxed mb-8">
-              Especialista em arquiteturas de software, otimização de
-              performance e seleção de tecnologias. Atuo como consultor técnico
-              confiável para auditar propostas, evitar gastos desnecessários e
-              traduzir objetivos de negócio em planos técnicos claros.
+              Especialista em <strong>arquiteturas de software</strong>,
+              otimização de performance e seleção de tecnologias. Atuo como{" "}
+              <strong>consultor técnico</strong> confiável para auditar
+              propostas, evitar gastos desnecessários e traduzir objetivos de
+              negócio em planos técnicos claros.
             </p>
 
             <div className="space-y-4 mb-8">
@@ -93,7 +94,7 @@ const About = () => {
               <a
                 href="https://www.linkedin.com/in/mendesalan/"
                 className="text-gray-500 hover:text-blue-600 transition-colors"
-                aria-label="LinkedIn"
+                aria-label="Perfil LinkedIn de Alan Mendes - Solutions Architect"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -103,7 +104,7 @@ const About = () => {
               <a
                 href="https://github.com/mendesalan"
                 className="text-gray-500 hover:text-gray-800 transition-colors"
-                aria-label="GitHub"
+                aria-label="Perfil GitHub de Alan Mendes - Solutions Architect"
                 target="_blank"
                 rel="noopener noreferrer"
               >

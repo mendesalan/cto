@@ -35,7 +35,11 @@ const FAQ = () => {
   };
 
   return (
-    <section className="py-20 md:py-28 bg-gray-50">
+    <section
+      className="py-20 md:py-28 bg-gray-50"
+      itemScope
+      itemType="https://schema.org/FAQPage"
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <motion.h2
@@ -45,7 +49,7 @@ const FAQ = () => {
             transition={{ duration: 0.5 }}
             className="text-3xl md:text-4xl font-bold text-gray-900"
           >
-            Perguntas Frequentes
+            Perguntas Frequentes sobre CTO on Demand
           </motion.h2>
         </div>
 
@@ -58,12 +62,20 @@ const FAQ = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="mb-4"
+              itemScope
+              itemProp="mainEntity"
+              itemType="https://schema.org/Question"
             >
               <button
                 onClick={() => toggleFAQ(index)}
                 className="w-full flex justify-between items-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+                aria-expanded={activeIndex === index}
+                aria-controls={`faq-answer-${index}`}
               >
-                <span className="text-left font-medium text-gray-900">
+                <span
+                  className="text-left font-medium text-gray-900"
+                  itemProp="name"
+                >
                   {faq.question}
                 </span>
                 <span className="text-emerald-600 ml-4">
@@ -73,13 +85,17 @@ const FAQ = () => {
 
               {activeIndex === index && (
                 <motion.div
+                  id={`faq-answer-${index}`}
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: "auto" }}
                   exit={{ opacity: 0, height: 0 }}
                   transition={{ duration: 0.3 }}
                   className="bg-white px-6 py-5 rounded-b-lg shadow-md -mt-1 text-gray-600"
+                  itemScope
+                  itemProp="acceptedAnswer"
+                  itemType="https://schema.org/Answer"
                 >
-                  {faq.answer}
+                  <div itemProp="text">{faq.answer}</div>
                 </motion.div>
               )}
             </motion.div>
