@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /out/
+
+Sitemap: https://meuctodigital.com/sitemap.xml
