@@ -45,20 +45,24 @@ const About = () => {
             </h2>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              <strong>Solutions Architect</strong> com mais de 10 anos de
-              experiência na área de tecnologia, sendo mais de 5 deles ajudando
-              empresas a transformar ideias em sistemas escaláveis. Já colaborei
-              com empresas como <strong>Accenture</strong>,{" "}
-              <strong>DBC Company</strong> e startups internacionais, definindo
-              estratégias tecnológicas que geram resultados reais.
+              <strong>CTO on Demand</strong> com 10 anos de experiência sólida
+              em tecnologia, sendo os últimos 5 anos dedicados exclusivamente à{" "}
+              <strong>arquitetura de software</strong> para negócios digitais.
+              Transformo desafios tecnológicos complexos em soluções escaláveis
+              e rentáveis, tendo já impactado diretamente o crescimento de
+              empresas como <strong>Accenture</strong>,{" "}
+              <strong>DBC Company</strong> e startups que hoje movimentam
+              milhões em receita.
             </p>
 
             <p className="text-base text-gray-600 leading-relaxed mb-8">
-              Especialista em <strong>arquiteturas de software</strong>,
-              otimização de performance e seleção de tecnologias. Atuo como{" "}
-              <strong>consultor técnico</strong> confiável para auditar
-              propostas, evitar gastos desnecessários e traduzir objetivos de
-              negócio em planos técnicos claros.
+              Como seu <strong>CTO as a Service</strong>, ofereço a expertise de
+              um C-level sem o custo fixo de uma contratação full-time. Minha
+              especialidade está em desenhar{" "}
+              <strong>arquiteturas de software</strong> que não apenas
+              funcionam, mas que crescem junto com seu negócio, evitando
+              reescritas custosas e garantindo que cada investimento em{" "}
+              <strong>tecnologia</strong> gere um retorno concreto.
             </p>
 
             <div className="space-y-4 mb-8">
