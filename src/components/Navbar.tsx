@@ -41,6 +41,12 @@ const Navbar = () => {
               Serviços
             </Link>
             <Link
+              href="/blog"
+              className="text-gray-700 hover:text-emerald-600 transition-colors"
+            >
+              Blog
+            </Link>
+            <Link
               href="#depoimentos"
               className="text-gray-700 hover:text-emerald-600 transition-colors"
             >
@@ -98,6 +104,13 @@ const Navbar = () => {
               onClick={toggleMenu}
             >
               Serviços
+            </Link>
+            <Link
+              href="/blog"
+              className="block py-2 text-gray-700 hover:text-emerald-600"
+              onClick={toggleMenu}
+            >
+              Blog
             </Link>
             <Link
               href="#depoimentos"
