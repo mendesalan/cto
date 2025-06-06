@@ -9,11 +9,41 @@ export const metadata = {
   title: "Blog | meuCTOdigital.com - Insights de Tecnologia e Negócios",
   description:
     "Artigos sobre arquitetura de software, CTO on demand, e estratégias técnicas para negócios digitais por Alan Mendes.",
+  keywords: [
+    "blog tecnologia",
+    "arquitetura software",
+    "CTO on demand",
+    "consultoria técnica",
+    "negócios digitais",
+    "Alan Mendes",
+    "insights tecnologia",
+  ],
   openGraph: {
-    title: "Blog | meuCTOdigital.com",
+    title: "Blog | meuCTOdigital.com - Insights de Tecnologia e Negócios",
     description:
-      "Insights sobre tecnologia e estratégia para negócios digitais",
+      "Artigos sobre arquitetura de software, CTO on demand, e estratégias técnicas para negócios digitais por Alan Mendes.",
     type: "website",
+    url: "https://meuctodigital.com/blog",
+    siteName: "meuCTOdigital.com",
+    locale: "pt_BR",
+    images: [
+      {
+        url: "/aboutme.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Alan Mendes - Blog sobre arquitetura de software e CTO on demand",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog | meuCTOdigital.com - Insights de Tecnologia e Negócios",
+    description:
+      "Artigos sobre arquitetura de software, CTO on demand, e estratégias técnicas para negócios digitais.",
+    images: ["/aboutme.jpeg"],
+  },
+  alternates: {
+    canonical: "/blog",
   },
 };
 

@@ -68,6 +68,7 @@ export const metadata: Metadata = {
     // yandex: 'seu-codigo-yandex',
     // bing: 'seu-codigo-bing',
   },
+  category: "technology",
   icons: {
     icon: [
       {
@@ -94,6 +95,11 @@ export default function RootLayout({
         <meta name="theme-color" content="#059669" />
         <meta name="color-scheme" content="light" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="meuCTOdigital" />
 
         {/* Dados Estruturados JSON-LD - Empresa */}
         <script
