@@ -120,7 +120,7 @@ const Services = () => {
               </div>
 
               <Link
-                href="#contato"
+                href="/#contato"
                 className={`inline-flex items-center ${service.linkColor} font-medium transition-colors`}
                 aria-label={`Saiba mais sobre ${service.title}`}
               >

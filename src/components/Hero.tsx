@@ -28,7 +28,7 @@ const Hero = () => {
 
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
-                href="#contato"
+                href="/#contato"
                 className="px-6 py-3 bg-emerald-600 text-white rounded-md shadow-lg hover:bg-emerald-700 inline-flex items-center transition-colors"
                 aria-label="Agendar conversa grátis sobre consultoria técnica"
               >
@@ -37,7 +37,7 @@ const Hero = () => {
               </Link>
 
               <Link
-                href="#servicos"
+                href="/#servicos"
                 className="px-6 py-3 border border-white text-white rounded-md hover:bg-white hover:text-gray-900 inline-flex items-center transition-colors"
                 aria-label="Ver serviços de arquitetura de software e CTO on demand"
               >

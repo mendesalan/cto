@@ -50,7 +50,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="#sobre"
+                  href="/#sobre"
                   className="hover:text-white transition-colors"
                 >
                   Sobre
@@ -58,7 +58,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="#servicos"
+                  href="/#servicos"
                   className="hover:text-white transition-colors"
                 >
                   Serviços
@@ -66,7 +66,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="#depoimentos"
+                  href="/#depoimentos"
                   className="hover:text-white transition-colors"
                 >
                   Depoimentos
@@ -74,7 +74,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="#contato"
+                  href="/#contato"
                   className="hover:text-white transition-colors"
                 >
                   Contato

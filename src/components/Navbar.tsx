@@ -23,19 +23,19 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <Link
-              href="#sobre"
+              href="/#sobre"
               className="text-gray-700 hover:text-emerald-600 transition-colors"
             >
               Sobre
             </Link>
             <Link
-              href="#problemas"
+              href="/#problemas"
               className="text-gray-700 hover:text-emerald-600 transition-colors"
             >
               Problemas
             </Link>
             <Link
-              href="#servicos"
+              href="/#servicos"
               className="text-gray-700 hover:text-emerald-600 transition-colors"
             >
               Serviços
@@ -47,13 +47,13 @@ const Navbar = () => {
               Blog
             </Link>
             <Link
-              href="#depoimentos"
+              href="/#depoimentos"
               className="text-gray-700 hover:text-emerald-600 transition-colors"
             >
               Depoimentos
             </Link>
             <Link
-              href="#contato"
+              href="/#contato"
               className="px-4 py-2 bg-emerald-600 text-white rounded-md hover:bg-emerald-700 transition-colors"
             >
               Agendar Conversa
@@ -85,21 +85,21 @@ const Navbar = () => {
         >
           <div className="px-4 py-4 space-y-3">
             <Link
-              href="#sobre"
+              href="/#sobre"
               className="block py-2 text-gray-700 hover:text-emerald-600"
               onClick={toggleMenu}
             >
               Sobre
             </Link>
             <Link
-              href="#problemas"
+              href="/#problemas"
               className="block py-2 text-gray-700 hover:text-emerald-600"
               onClick={toggleMenu}
             >
               Problemas
             </Link>
             <Link
-              href="#servicos"
+              href="/#servicos"
               className="block py-2 text-gray-700 hover:text-emerald-600"
               onClick={toggleMenu}
             >
@@ -113,14 +113,14 @@ const Navbar = () => {
               Blog
             </Link>
             <Link
-              href="#depoimentos"
+              href="/#depoimentos"
               className="block py-2 text-gray-700 hover:text-emerald-600"
               onClick={toggleMenu}
             >
               Depoimentos
             </Link>
             <Link
-              href="#contato"
+              href="/#contato"
               className="block py-2 text-emerald-600 font-medium"
               onClick={toggleMenu}
             >
