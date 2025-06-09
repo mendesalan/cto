@@ -29,8 +29,7 @@ const Contact = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-xl mb-10 max-w-2xl mx-auto text-emerald-100"
           >
-            Vamos conversar e montar algo do jeito certo? Agende uma consulta
-            gratuita de 30 minutos.
+            Vamos conversar e montar algo do jeito certo? Agende uma conversa.
           </motion.p>
 
           <motion.div
