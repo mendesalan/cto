@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Analytics, { GTMNoscript } from "./analytics";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
@@ -89,6 +90,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
+        <Analytics />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="shortcut icon" href="/favicon.svg" />
         <link rel="apple-touch-icon" href="/favicon.svg" />
@@ -187,7 +189,10 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <GTMNoscript />
+        {children}
+      </body>
     </html>
   );
 }
