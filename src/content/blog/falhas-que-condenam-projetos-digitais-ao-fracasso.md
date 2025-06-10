@@ -1,7 +1,7 @@
 ---
 title: "Será que seu projeto de tecnologia está realmente no caminho certo?"
 description: "Descubra os 5 pontos essenciais que todo projeto digital precisa ter para evitar prejuízos e garantir o sucesso do desenvolvimento."
-date: "2024-01-20"
+date: "2025-06-10"
 author: "Alan Mendes"
 tags: ["Gestão de Projetos", "CTO", "Desenvolvimento", "MVP", "Estratégia"]
 featured: true
