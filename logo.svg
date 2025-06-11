@@ -1,0 +1,7 @@
+<svg width="160" height="60" viewBox="0 0 160 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- CTO text -->
+  <text x="80" y="25" font-family="Arial, sans-serif" font-size="24" font-weight="900" text-anchor="middle" fill="#1f2937" letter-spacing="-1px">CTO</text>
+  
+  <!-- digital text -->
+  <text x="80" y="45" font-family="Arial, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="#6b7280" letter-spacing="0.5px">digital</text>
+</svg> 
