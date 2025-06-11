@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -16,8 +17,14 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-xl font-bold text-emerald-600">
-            meuCTOdigital.com
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/cto-digital.png"
+              alt="meuCTOdigital.com"
+              width={160}
+              height={60}
+              className="h-16 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
