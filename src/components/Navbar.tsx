@@ -48,6 +48,12 @@ const Navbar = () => {
               Serviços
             </Link>
             <Link
+              href="/cto-on-demand"
+              className="text-gray-700 hover:text-emerald-600 transition-colors"
+            >
+              CTO on Demand
+            </Link>
+            <Link
               href="/blog"
               className="text-gray-700 hover:text-emerald-600 transition-colors"
             >
@@ -111,6 +117,13 @@ const Navbar = () => {
               onClick={toggleMenu}
             >
               Serviços
+            </Link>
+            <Link
+              href="/cto-on-demand"
+              className="block py-2 text-gray-700 hover:text-emerald-600"
+              onClick={toggleMenu}
+            >
+              CTO on Demand
             </Link>
             <Link
               href="/blog"

@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     "Arquitetura de software e consultoria técnica para infoprodutores e negócios digitais. CTO on demand, diagnóstico técnico e planejamento de apps escaláveis.",
   keywords: [
     "CTO on demand",
+    "meu CTO digital",
+    "CTO terceirizado",
+    "CTO as a service",
     "arquitetura de software",
     "consultoria técnica",
     "infoprodutores",
@@ -20,6 +23,8 @@ export const metadata: Metadata = {
     "Alan Mendes",
     "Solutions Architect",
     "desenvolvimento de software",
+    "CTO startup",
+    "liderança técnica",
   ],
   authors: [{ name: "Alan Mendes" }],
   creator: "Alan Mendes",
@@ -65,7 +70,7 @@ export const metadata: Metadata = {
   },
   verification: {
     // Adicione aqui seus códigos de verificação quando tiver:
-    // google: 'seu-codigo-google-search-console',
+    google: "sua-verificacao-google-search-console",
     // yandex: 'seu-codigo-yandex',
     // bing: 'seu-codigo-bing',
   },
