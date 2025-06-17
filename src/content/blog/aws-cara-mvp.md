@@ -1,7 +1,7 @@
 ---
 title: "Por que sua startup está queimando dinheiro com AWS (e como evitar isso)"
 description: "Descubra por que usar AWS em um MVP pode drenar seu orçamento desnecessariamente e como escolher a infraestrutura certa para cada fase do seu produto."
-date: "2024-01-22"
+date: "2025-01-22"
 author: "Alan Mendes"
 tags: ["AWS", "MVP", "Infraestrutura", "Custos", "Startup"]
 featured: true

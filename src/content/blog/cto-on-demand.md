@@ -1,10 +1,10 @@
 ---
 title: "Como um CTO on Demand pode revolucionar seu negócio digital"
 description: "Descubra como ter um CTO experiente sem os custos de uma contratação full-time pode acelerar seu crescimento e evitar prejuízos técnicos."
-date: "2024-01-15"
+date: "2025-03-15"
 author: "Alan Mendes"
 tags: ["CTO", "Estratégia", "Negócios Digitais", "Arquitetura"]
-featured: false
+featured: true
 image: "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
 ---
 

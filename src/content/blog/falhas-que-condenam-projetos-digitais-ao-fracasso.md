@@ -4,7 +4,7 @@ description: "Descubra os 5 pontos essenciais que todo projeto digital precisa t
 date: "2025-06-10"
 author: "Alan Mendes"
 tags: ["Gestão de Projetos", "CTO", "Desenvolvimento", "MVP", "Estratégia"]
-featured: true
+featured: false
 image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
 ---
 
