@@ -59,10 +59,6 @@ Estabeleça metas realistas e checkpoints claros. Celebre as pequenas vitórias 
 
 A liderança é fundamental neste processo. Um bom líder técnico mantém comunicação bidirecional, oferece feedback constante e cria um ambiente de crescimento estruturado. O reconhecimento deve ser do time, não apenas de indivíduos. Evite a comunicação apenas top-down e o feedback anual - essas práticas antiquadas só contribuem para a desmotivação.
 
-## Quando Buscar Ajuda Externa
-
-É hora de buscar ajuda externa quando o turnover ultrapassa 20% ao ano, quando mais de três sprints consecutivas estão atrasadas, quando os conflitos são frequentes e quando a produtividade cai consistentemente. Nesses casos, uma intervenção externa pode trazer uma nova perspectiva e ajudar a reverter o quadro.
-
 ## Não Cometa Esses Erros
 
 Ignorar os feedbacks do time, aumentar a pressão sem resolver os problemas estruturais, prometer mudanças sem executá-las e comparar times ou indivíduos são erros que só pioram a situação. Evite esses comportamentos a todo custo.
