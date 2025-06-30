@@ -1,7 +1,7 @@
 ---
 title: "Como ser mais assertivo: O Guia Definitivo para Tomar Decisões com Confiança"
 description: "Descubra como desenvolver assertividade para tomar decisões mais eficazes em sua carreira e vida pessoal, com técnicas práticas e insights valiosos."
-date: "2025-01-20"
+date: "2025-06-30"
 author: "Alan Mendes"
 tags:
   [
