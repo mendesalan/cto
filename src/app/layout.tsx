@@ -121,6 +121,10 @@ export default function RootLayout({
         />
         <link rel="shortcut icon" href="/favicon.svg" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <meta
+          name="facebook-domain-verification"
+          content="x2a9ntj4w6tvyzlbdgtj8nzerjql02"
+        />
         <meta name="theme-color" content="#1f2937" />
         <meta name="color-scheme" content="light" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
